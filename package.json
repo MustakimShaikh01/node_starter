@@ -1,0 +1,38 @@
+{
+  "name": "node-express-api-complete",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Complete Node.js Express API with 15 CRUD endpoints, Swagger, rate-limiting, seed, and Postman collection",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "seed": "node src/seeders/seed.js",
+    "lint": "eslint .",
+    "test": "jest --runInBand"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.1.6",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3",
+    "winston": "^3.9.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "jest": "^29.0.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^7.0.0"
+  }
+}
