@@ -83,7 +83,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: process.env.BASE_URL || 'http://localhost:3000',
+        url: process.env.BASE_URL || 'https://node-starter-1.onrender.com/',
         description: 'Local development server',
       },
     ],
